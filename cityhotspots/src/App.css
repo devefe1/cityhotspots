@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body{
+  background-color: #0A0E19;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.app{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.logo {
+ position: absolute;
+ left: 52%;
+ transform: translateX(-50%);
+ top:-270px;
+  height: 50%;
+  width: 50%;
+
+}
+.logoNav{
+  background-color: #0A0E19;
+  height: 80px;
+  }
+  
+.navLogoContainer{
+  height: 40px
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  background-color: #201E2C;
+  height: 80px;
+  margin-top: 40px;
+  border-top: 1px solid #D4AF37;
+  border-bottom: 1px solid #D4AF37;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBar{
+  display: flex;
+  font-size: 30px;
+  padding-top: 25px;
+  color: #D4AF37;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: 'Special Elite', cursive;
+}
+
+.sep_Home{
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.restaurantImg{
+ height: 100%;
+  /* display: block; */
 }
