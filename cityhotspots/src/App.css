@@ -54,3 +54,13 @@ body{
   display: inline-block;
   line-height: 0.85;
 }
+
+.about{
+  color: white;
+  text-align: center;
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  
+}
