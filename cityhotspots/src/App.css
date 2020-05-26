@@ -91,3 +91,9 @@ body{
   list-style: none;
   font-family: 'Teko', sans-serif;
 }
+
+.contactNumber{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  list-style: none;
+}
