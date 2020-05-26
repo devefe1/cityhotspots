@@ -153,3 +153,8 @@ body{
   text-align: center;
   margin-top: 2px;
 }
+
+.contactButton:hover {
+  background:linear-gradient(to bottom, #634b30 5%, #BDAD75 100%);
+  background-color: #BDAD75;
+}
