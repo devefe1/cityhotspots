@@ -111,3 +111,14 @@ body{
   column-gap: 10px;
   font-size: 13px;
 }
+
+.contactBar1{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  border: 1px solid #BDAD75;
+  background-color: #201E2C;
+  width: 60%;
+  outline: none;
+  margin-top: 2px;
+  font-size: 13px;
+}
