@@ -33,4 +33,6 @@ body{
   padding-top: 15px;
   color: #D4AF37;
   justify-content: space-evenly;
+  list-style: none;
+  font-family: 'Special Elite', cursive;
 }
