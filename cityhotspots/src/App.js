@@ -5,9 +5,11 @@ import Header from './components/Header';
 import Logo from './components/Logo';
 import Contact from './components/Contact';
 import Restaurant from './assets/restaurant.jpeg';
+import Footer from './components/Footer';
 // import Line from './assets/Line.png';
 import Mall from './assets/Mall.jpg';
 import Map from './assets/westin-map-1024x611.png';
+
 
 function App() {
   return (
@@ -31,11 +33,11 @@ function App() {
               <div className="mImg">
               <img className = "mallImg" src={Mall}  alt="fireSpot"/>
               </div>
-                  <Contact/>
+                   <Contact/>
                <div className="mpImg">
                     <img className="mapImg" src={Map} alt="fireSpot"/>
                   </div>
-                 
+                 <Footer/>
               
     </div>
       

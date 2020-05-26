@@ -1,5 +1,4 @@
 import React from 'react';
-import headerLogo from '../assets/logo.png';
 
 function Contact() {
     return (
@@ -14,10 +13,10 @@ function Contact() {
             <li className="contactNumber">682-246-5810 | city@hotspots.com</li>
         </div>
             <div className ="contactBoxes">
-                <input className="contactBar" type="text" placeholder="Name" />
-                <input className="contactBar" type="text" placeholder="Email" />
-                <input className="contactBar" type="text" placeholder="Feedback" />
-                <input className="contactButton" type="button" placeholder="Submit" />
+                <input className="contactBar" type="text" placeholder="   Name" />
+                <input className="contactBar1" type="text" placeholder="   Email" />
+                <input className="contactBar2" type="text" placeholder="   Feedback" />
+                <a href="#" class="contactButton">Submit</a>
             </div>
         </div>
     );

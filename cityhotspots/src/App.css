@@ -77,6 +77,8 @@ body{
 .contactContainer{
   background-color: #201E2C ;
   border-top: 1px solid #D4AF37;
+  padding-bottom: 30px;
+  height: 170px;
 }
 .contact{
   color: white;
@@ -102,17 +104,143 @@ body{
   font-family: 'Teko', sans-serif;
   border: 1px solid #BDAD75;
   background-color: #201E2C;
-  width: 12%;
+  width: 60%;
   outline: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  column-gap: 40px;
+  column-gap: 10px;
+  font-size: 13px;
+}
 
+.contactBar1{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  border: 1px solid #BDAD75;
+  background-color: #201E2C;
+  width: 60%;
+  outline: none;
+  margin-top: 2px;
+  font-size: 13px;
 }
-.contactButton{
-  background-color: #BDAD75;
-  border-style: none;
-  color: white;
-  width: 12.3%;
+
+.contactBar2{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  border: 1px solid #BDAD75;
+  background-color: #201E2C;
+  width: 60%;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2px;  
+  font-size: 13px;
 }
+.contactButton {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #BDAD75 5%, #BDAD75 100%);
+	background-color:#BDAD75;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Teko', sans-serif;
+	font-size:14px;
+	padding:2px 24.5px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #BDAD75;
+  width: 49.8%;
+  text-align: center;
+  margin-top: 2px;
+}
+.contactButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #BDAD75 100%);
+	background-color: #BDAD75;
+}
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
+
+ .firstContact{
+   float: left;
+   padding-left: 230px;
+   padding-top: 5px;
+ }       
+ .contactBoxes{
+  padding-left: 1000px;
+  padding-top: 50px;
+ }
+
+ .mapImg{
+  border-bottom: 1px solid #D4AF37;
+  width: 100%;
+  object-fit: cover;
+ }
+ 
+ .footerParent{
+  margin-top: -16px;
+ }
+ .childFooter{
+   color: white;
+   font-size: 10px;
+   font-family: 'Teko', sans-serif;
+   font-weight: lighter;
+   padding-left: 230px;
+   background-color: #201E2C;
+   padding-top: 20px;
+   padding-bottom: 30px;
+ }
+
+ .footerBar{
+  olor: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  border: 1px solid #BDAD75;
+  background-color: #201E2C;
+  width: 25%;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2px;  
+  font-size: 13px;
+ }
+
+ .footerButton {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #BDAD75 5%, #BDAD75 100%);
+	background-color:#BDAD75;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Teko', sans-serif;
+	font-size:14px;
+	padding:2px 24.5px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #BDAD75;
+  width: 6%;
+  text-align: center;
+  margin-top: 2px;
+  
+}
+.footerButton:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #BDAD75 100%);
+	background-color: #BDAD75;
+}
+.footerButton:active {
+	position:relative;
+  top:1px;
+ 
+} 
+
+.sepBar{
+  display: flex;
+  margin-top: -38px;
+  padding-left: 230px;
+} 
+
+ .socialLogo{
+  height: 20px;
+  padding-left: 1200px;
+  padding-top: -3000px;
+ }
