@@ -122,3 +122,17 @@ body{
   margin-top: 2px;
   font-size: 13px;
 }
+
+.contactBar2{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  border: 1px solid #BDAD75;
+  background-color: #201E2C;
+  width: 60%;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2px;  
+  font-size: 13px;
+}
