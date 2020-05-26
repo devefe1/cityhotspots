@@ -158,3 +158,9 @@ body{
   background:linear-gradient(to bottom, #634b30 5%, #BDAD75 100%);
   background-color: #BDAD75;
 }
+
+.contactButton:active {
+  position:relative;
+  top:1px;
+}
+
