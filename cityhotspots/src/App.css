@@ -7,4 +7,6 @@ body{
 }
 .logo{
   position: absolute;
+  left: 52%;
+  transform: translateX(-50%);
 }
