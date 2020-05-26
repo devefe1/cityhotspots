@@ -4,7 +4,7 @@ import headerLogo from '../assets/logo.png';
 function Logo() {
     return (
         <div className ="navLogoContainer">
-            <nav className="logoNav">
+            <nav>
                 <img className = "logo" src={headerLogo}  alt="fireSpot"/>
             </nav>
         </div>

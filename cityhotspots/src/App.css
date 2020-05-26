@@ -8,23 +8,21 @@ body{
  position: absolute;
  left: 52%;
  transform: translateX(-50%);
- top:-270px;
+ top:-155px;
   height: 50%;
   width: 50%;
 
 }
-.logoNav{
-  background-color: #0A0E19;
-  height: 80px;
-  }
   
+   
 .navLogoContainer{
+  margin-top: -10px;
   height: 40px
 }
 
 .header{
   background-color: #201E2C;
-  height: 80px;
+  height: 50px;
   margin-top: 40px;
   border-top: 1px solid #D4AF37;
   border-bottom: 1px solid #D4AF37;
@@ -32,8 +30,8 @@ body{
 
 .navBar{
   display: flex;
-  font-size: 30px;
-  padding-top: 25px;
+  font-size: 25px;
+  padding-top: 15px;
   color: #D4AF37;
   justify-content: space-evenly;
   list-style: none;
@@ -42,10 +40,79 @@ body{
 
 .sep_Home{
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .restaurantImg{
- height: 100%;
-  /* display: block; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.aboutHead{
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+  border-bottom: 2px solid #D4AF37;
+  display: inline-block;
+  line-height: 0.85;
+}
+.about{
+  color: white;
+  text-align: center;
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  
+  
+}
+.mallImg{
+  border-top: 0.75px solid #D4AF37;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contactContainer{
+  background-color: #201E2C ;
+  border-top: 1px solid #D4AF37;
+}
+.contact{
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+  list-style: none;
+  padding-top: 20px;
+
+}
+
+.contactP{
+  color: #BDAD75;
+  list-style: none;
+  font-family: 'Teko', sans-serif;
+}
+.contactNumber{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  list-style: none;
+}
+.contactBar{
+  color: #BDAD75;
+  font-family: 'Teko', sans-serif;
+  border: 1px solid #BDAD75;
+  background-color: #201E2C;
+  width: 12%;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  column-gap: 40px;
+
+}
+.contactButton{
+  background-color: #BDAD75;
+  border-style: none;
+  color: white;
+  width: 12.3%;
 }
