@@ -9,4 +9,7 @@ body{
   position: absolute;
   left: 52%;
   transform: translateX(-50%);
+  top: -155px;
+  height: 50%;
+  width: 50%;
 }
