@@ -77,3 +77,12 @@ body{
   padding-bottom: 30px;
   height: 170px;
 }
+
+.contact{
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+  list-style: none;
+  padding-top: 20px;
+
+}
