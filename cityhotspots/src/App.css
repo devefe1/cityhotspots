@@ -63,3 +63,10 @@ body{
   padding-top: 30px;
   padding-bottom: 35px;
 }
+
+.mallImg{
+  border-top: 0.75px solid #D4AF37;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
