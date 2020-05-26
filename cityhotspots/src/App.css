@@ -18,3 +18,8 @@ body{
   margin-top: -10px;
   height: 40px;
 }
+
+.header{
+  background-color: #201E2C;
+  height: 50px;
+}
