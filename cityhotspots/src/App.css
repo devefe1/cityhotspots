@@ -70,3 +70,10 @@ body{
   height: 100%;
   object-fit: cover;
 }
+
+.contactContainer{
+  background-color: #201E2C ;
+  border-top: 1px solid #D4AF37;
+  padding-bottom: 30px;
+  height: 170px;
+}
