@@ -22,4 +22,6 @@ body{
 .header{
   background-color: #201E2C;
   height: 50px;
+  margin-top: 40px;
+  border-top: 1px solid #D4AF37;
 }
